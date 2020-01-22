@@ -1,0 +1,127 @@
+/*Configuraciones globales*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    color: rgb(62,62,62);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+section{
+    padding: 80px 0;
+}
+/*Encabezados*/
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: white;
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: rgb(15, 99, 167);
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/*Nav*/
+.nav{
+float: right;
+list-style: none;
+margin-top: 60px;
+margin-right: 70px;
+}
+/*Home container*/
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.705),rgba(0,0,0,0.705)), url(/assets/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    height: 200px;
+    width: auto;
+    float: left;
+    margin-left: 90px;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    transition: border-bottom 0.2s;
+}
+.nav li a:hover{
+    border-bottom: 2px solid rgb(15,99,167);
+}
+.home-container{
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    transform: translate(-50%, 50%);
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 2px solid rgb(15, 99, 167);
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btn-more:hover{
+    background-color: rgb(15, 99, 167);
+    color: black;
+}
+.btn-contact:hover{
+    background-color:rgb(15, 99, 167);
+}
+/*Section-description*/
+.text-center{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+
+}
+.section-plans{
+    background-color: #f4f4f4;
+}
+.plan-content{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+    text-align: center;
+}
+.plan-content div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
